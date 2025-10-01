@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -12,7 +13,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
-    <!-- Komponen akan ditambahkan di sini -->
+    <Button
+        android:id="@+id/button_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3DCE0C"
+        android:text="@string/button_label_browser" />
+
+    <Button
+        android:id="@+id/button_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0C9DCE"
+        android:text="@string/button_label_contacts" />
+
+    <Button
+        android:id="@+id/button_maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CE9D0C"
+        android:text="@string/button_label_maps" />
+
     <Button
         android:id="@+id/button_toast"
         android:layout_width="match_parent"

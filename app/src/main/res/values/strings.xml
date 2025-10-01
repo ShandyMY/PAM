@@ -4,4 +4,7 @@
     <string name="count_initial_value">0</string>
     <string name="button_label_count">Count</string>
     <string name="toast_message">Hello Toast !</string>
+    <string name="button_label_browser">Browse Page</string>
+    <string name="button_label_contacts">Open Contacts</string>
+    <string name="button_label_maps">Open Maps</string>
 </resources>
